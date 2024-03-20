@@ -8,7 +8,7 @@ export default function Write() {
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
-  const admin = false;
+  // const admin = false;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
