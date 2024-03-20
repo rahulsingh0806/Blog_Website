@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./request.css";
-import { useLocation, useHistory } from "react-router";
-import { Link } from "react-router-dom";
-import { Context } from "../../context/Context";
+// import { useLocation, useHistory } from "react-router";
+// import { Link } from "react-router-dom";
+// import { Context } from "../../context/Context";
 
 export default function RequestPage() {
-  const location = useLocation();
+  // const location = useLocation();
   const [posts, setPosts] = useState([]);
-  const { user } = useContext(Context);
-  const history = useHistory();
+  // const { user } = useContext(Context);
+  // const history = useHistory();
 
   const fetchPosts = async () => {
     try {
